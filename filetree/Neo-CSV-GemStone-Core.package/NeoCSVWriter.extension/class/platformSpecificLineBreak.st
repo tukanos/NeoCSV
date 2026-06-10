@@ -1,4 +1,4 @@
-*neo-cvs-gemstone-core
+*neo-csv-gemstone-core
 platformSpecificLineBreak
     "Protocol: public"
     "'Smalltalk os platformName' is used for compatibility with GS and Squeak
