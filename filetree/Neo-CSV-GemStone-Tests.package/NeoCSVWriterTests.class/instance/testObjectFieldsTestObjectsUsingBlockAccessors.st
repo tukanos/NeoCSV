@@ -12,4 +12,4 @@ testObjectFieldsTestObjectsUsingBlockAccessors
 							NeoCSVTestObject example. 
 							NeoCSVTestObject example. 
 							NeoCSVTestObject example } ])
-		equals: (OSPlatform current lineEnding join: #( '"x","y","z"' '100,200,300' '100,200,300' '100,200,300' ''))
+		equals: (NeoCSVWriter platformSpecificLineBreak join: #( '"x","y","z"' '100,200,300' '100,200,300' '100,200,300' ''))

@@ -4,4 +4,4 @@ testWriteEmbeddedQuote
 	header := String streamContents: [ :out |
 		(NeoCSVWriter on: out)
 			nextPut: #(foo 'x"y"z') ].
-	self assert: header equals: '"foo","x""y""z"', OSPlatform current lineEnding
+	self assert: header equals: '"foo","x""y""z"', NeoCSVWriter platformSpecificLineBreak

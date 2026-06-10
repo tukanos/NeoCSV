@@ -10,5 +10,5 @@ testOptionalQuotedFields
 							{'one'.
 							't,wo'.
 							't"hree'.
-							'fo' , OSPlatform current lineEnding , 'ur'} ])
-		equals: 'one,"t,wo","t""hree","fo' , OSPlatform current lineEnding , 'ur"', OSPlatform current lineEnding
+							'fo' , NeoCSVWriter platformSpecificLineBreak , 'ur'} ])
+		equals: 'one,"t,wo","t""hree","fo' , NeoCSVWriter platformSpecificLineBreak , 'ur"', NeoCSVWriter platformSpecificLineBreak

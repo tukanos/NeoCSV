@@ -5,4 +5,4 @@ testWideOptionalQuoted
 			(NeoCSVWriter on: out) 
 				fieldWriter: #optionalQuoted; 
 				nextPut: { 1. 'foo "1" ', Character euro asString. true} ])
-		equals: ('1,"foo ""1"" ', Character euro asString, '",true', OSPlatform current lineEnding)
+		equals: ('1,"foo ""1"" ', Character euro asString, '",true', NeoCSVWriter platformSpecificLineBreak)
