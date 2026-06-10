@@ -1,5 +1,5 @@
 initialize-release
-initialize 
+initialize
 	super initialize.
 	lineEnd := OSPlatform current lineEnding.
 	separator := $, .
