@@ -1,0 +1,17 @@
+{
+	"category" : "Neo-CSV-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"descriptionSource",
+		"name",
+		"encoder",
+		"decoder" ],
+	"name" : "MACSVField",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

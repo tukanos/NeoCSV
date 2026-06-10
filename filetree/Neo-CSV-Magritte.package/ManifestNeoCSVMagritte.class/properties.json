@@ -1,0 +1,14 @@
+{
+	"category" : "Neo-CSV-Magritte-Manifest",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ManifestNeoCSVMagritte",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }

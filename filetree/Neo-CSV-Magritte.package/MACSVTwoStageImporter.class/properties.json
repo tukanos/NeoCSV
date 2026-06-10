@@ -1,0 +1,15 @@
+{
+	"category" : "Neo-CSV-Magritte-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectBlock",
+		"preprocessor" ],
+	"name" : "MACSVTwoStageImporter",
+	"pools" : [
+		 ],
+	"super" : "MACSVImporter",
+	"type" : "normal" }

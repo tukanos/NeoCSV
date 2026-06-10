@@ -1,0 +1,16 @@
+{
+	"category" : "Neo-CSV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"header",
+		"data",
+		"types" ],
+	"name" : "NeoCSVData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

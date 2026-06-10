@@ -1,0 +1,16 @@
+{
+	"category" : "Neo-CSV-Magritte-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"map",
+		"fieldNamePropertyKey",
+		"fieldReaderPropertyKey" ],
+	"name" : "MACSVMappedPragmaBuilder",
+	"pools" : [
+		 ],
+	"super" : "MAPragmaBuilder",
+	"type" : "normal" }

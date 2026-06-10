@@ -1,0 +1,21 @@
+{
+	"category" : "Neo-CSV-Magritte-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"writer",
+		"writerClass",
+		"target",
+		"subjects",
+		"map",
+		"subjectDescription",
+		"ignoresUnkownFields",
+		"includesHeader" ],
+	"name" : "MACSVWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

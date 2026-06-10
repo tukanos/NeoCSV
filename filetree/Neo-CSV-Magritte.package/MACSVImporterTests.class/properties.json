@@ -1,0 +1,16 @@
+{
+	"category" : "Neo-CSV-Magritte-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"input",
+		"importer",
+		"objects" ],
+	"name" : "MACSVImporterTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

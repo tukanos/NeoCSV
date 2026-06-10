@@ -1,0 +1,18 @@
+{
+	"category" : "Neo-CSV-Magritte-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"phoneNumber",
+		"birthdate",
+		"name",
+		"birthplace",
+		"wikipediaUrl" ],
+	"name" : "MACSVTestPerson",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

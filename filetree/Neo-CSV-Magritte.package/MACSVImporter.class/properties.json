@@ -1,0 +1,19 @@
+{
+	"category" : "Neo-CSV-Magritte-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"reader",
+		"readerClass",
+		"recordClass",
+		"source",
+		"columnNames",
+		"recordMagritteDescription" ],
+	"name" : "MACSVImporter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

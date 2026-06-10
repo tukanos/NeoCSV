@@ -1,0 +1,18 @@
+{
+	"category" : "Neo-CSV-Magritte-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"input",
+		"objects",
+		"person",
+		"target",
+		"writer" ],
+	"name" : "MACSVWriterTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
