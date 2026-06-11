@@ -10,12 +10,14 @@ MIT Licensed.
 
 To load it to GemStone:
 
+```Smalltalk
 GsDeployer deploy: [
   Metacello new
     baseline: 'NeoCSV';
     repository: 'github://tukanos/neoCSV:gs_master/filetree';
     load
 ]
+```
 
 ## Pharo continued
 
