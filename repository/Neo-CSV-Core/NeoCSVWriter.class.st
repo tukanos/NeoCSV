@@ -246,15 +246,6 @@ NeoCSVWriter >> flush [
 ]
 
 { #category : 'initialize-release' }
-NeoCSVWriter >> initialize [ 
-	super initialize.
-	lineEnd := OSPlatform current lineEnding.
-	separator := $, .
-	fieldWriter := #writeQuotedField: 
-
-]
-
-{ #category : 'initialize-release' }
 NeoCSVWriter >> lineEndConvention: symbol [
 	"Set the end of line convention to be used.
 	Either #cr, #lf or #crlf (the default)."
