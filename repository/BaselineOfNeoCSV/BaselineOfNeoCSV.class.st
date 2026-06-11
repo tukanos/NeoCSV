@@ -37,8 +37,11 @@ BaselineOfNeoCSV >> baseline: spec [
 	spec
 		for: #pharo
 		do: [ spec
+				package: 'Neo-CSV-Pharo-Core'
+				with: [ spec requires: #('Neo-CSV-Core') ];
 				package: 'Neo-CSV-Pharo-Tests'
 				with: [ spec requires: #('Neo-CSV-Tests') ].
-			  spec
+			spec
+				group: 'Core' with: #('Neo-CSV-Pharo-Core');
 				group: 'Tests' with: #('Neo-CSV-Pharo-Tests') ]
 ]
