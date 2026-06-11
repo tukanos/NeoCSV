@@ -6,6 +6,19 @@ NeoCSV is an elegant and efficient standalone Smalltalk framework to read and wr
 
 MIT Licensed.
 
+## This is a GemStone port
+
+To load it to GemStone:
+
+GsDeployer deploy: [
+  Metacello new
+    baseline: 'NeoCSV';
+    repository: 'github://tukanos/neoCSV:gs_master/filetree';
+    load
+]
+
+## Pharo continued
+
 A chapter in the [Enterprise Pharo](https://books.pharo.org/enterprise-pharo/) book is a good introduction to [NeoCSV](https://ci.inria.fr/pharo-contribution/job/EnterprisePharoBook/lastSuccessfulBuild/artifact/book-result/NeoCSV/NeoCSV.html).
 
 Go ahead and read the [NeoCSV paper](https://github.com/svenvc/docs/blob/master/neo/neo-csv-paper.md).
