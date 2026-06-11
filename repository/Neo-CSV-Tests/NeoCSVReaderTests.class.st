@@ -123,11 +123,10 @@ NeoCSVReaderTests >> testEmptyFieldInput [
 		assert: ((NeoCSVReader on: 'one,NULL,two\"nil","NULL","three"\nil,NULL,nil' withCRs readStream)
 					emptyFieldInput: [ :field | #('NULL' 'nil') includes: field ]; emptyFieldValue: #empty; upToEnd)
 		equals: #(('one' empty 'two') (empty empty 'three') (empty empty empty)).
-	self
+	self 
 		assert: ((NeoCSVReader on: 'one,,two\,,three\,,' withCRs readStream)
 					emptyFieldInput: [ :field | field isEmpty ]; upToEnd)
 		equals: #(('one' nil 'two') (nil nil 'three') (nil nil nil))
-
 ]
 
 { #category : #testing }
